@@ -1,7 +1,5 @@
 # Stripe Homework Project
 
-### Preparation
-
 To get started, clone the repository and run pip3 to install dependencies:
 
 ```
