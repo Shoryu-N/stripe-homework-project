@@ -1,6 +1,5 @@
 import unittest
 from app import app as stripe_app
-import time
 
 class TestStripeApp(unittest.TestCase):
     def setUp(self):
