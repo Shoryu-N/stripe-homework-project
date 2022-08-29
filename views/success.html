@@ -1,0 +1,18 @@
+{% extends 'layouts/main.html' %} {% block content %}
+<main id="payment-success">
+  <div class="row justify-content-center">
+    <div class="card" style="width: 48rem;">
+      <div class="row">
+        <div class="col-4">
+          <img class="card-img" src="" id="purchase-img" alt="" style="width: 16rem">
+        </div>
+        <div class="col-8">
+          <h1 class="card-title">Thank you for the order!</h1>
+          <p class="card-text" id="amount"></p>
+          <p class="card-text" id="payment_intent_id"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
