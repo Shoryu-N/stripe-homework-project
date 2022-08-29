@@ -35,7 +35,6 @@ class TestStripeApp(unittest.TestCase):
         error_response_item4 = self.app.post('/create-payment-intent', json={"item":4})
         self.assertIn(b'The item with the given id does not exist', error_response_item4.data)
 
-
         error_response_item0 = self.app.post('/create-payment-intent', json={"item":0})
         self.assertIn(b'The item with the given id does not exist', error_response_item0.data)
 
