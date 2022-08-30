@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 
 If pip is not installed, update to Python 3.4 or later.
 
-Rename `sample.env` to `.env` and populate it with your Stripe account's test API keys.
+Add the .env file and read the publishable key and private key from it.
 
 Then run the application locally:
 
